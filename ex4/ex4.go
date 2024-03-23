@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type fuinha int
 
@@ -8,7 +10,9 @@ var x fuinha
 
 func main() {
 	fmt.Println(x)
-
+	fmt.Printf("%T\n", x)
+	x = 42
+	fmt.Println(x)
 }
 
 /*
