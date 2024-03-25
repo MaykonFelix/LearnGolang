@@ -8,8 +8,11 @@ var x fuinha
 
 var y int
 
+var z int
+
 func main() {
 
+	fmt.Printf("%T\n\n", z)
 	fmt.Println("Valor Inicial de X: ", x)
 	fmt.Printf("Tipo da variavel X: %T\n", x)
 	x = 42
